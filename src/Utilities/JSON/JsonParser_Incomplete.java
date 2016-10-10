@@ -23,7 +23,7 @@ import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
 
-public class JsonParser {
+public class JsonParser_Incomplete {
 
     public static void run_json_perser(String fileNam) throws IOException, ParseException, JSONException {
 
