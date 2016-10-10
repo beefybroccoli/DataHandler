@@ -1,5 +1,6 @@
 package Utilities.XML;
 
+import Model.GenericObject;
 import Model.LongBox;
 import Model.StoryArc;
 import Model.Volume;
@@ -7,8 +8,11 @@ import Model.Issue;
 import Model.GenericObject;
 import Model.Publisher;
 import Model.Person;
+import Reference.ReadXMLWithSAX.Customer;
+import Reference.ReadXMLWithSAX.SAXCustomerHandler;
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -167,6 +171,10 @@ public class SAXGenericHandler extends DefaultHandler {
                 assignValue("store_date", content);
                 break;
 
+            case "image_location":
+                assignValue("image_location", content);
+                break;
+
             case "cover_date":
                 assignValue("cover_date", content);
                 break;
@@ -200,6 +208,14 @@ public class SAXGenericHandler extends DefaultHandler {
     @Override
     public void fatalError(SAXParseException e) throws SAXException {
         System.out.println("fatal error");
+    }
+
+    public void startCDATA() throws SAXException {
+        // ...
+    }
+
+    public void endCDATA() throws SAXException {
+        // ...
     }
 
     public void assignValue(String inputVariableName, String inputValue) {
@@ -285,6 +301,7 @@ public class SAXGenericHandler extends DefaultHandler {
                     issue.setId(inputValue);
                     break;
                 case "image_location":
+                    System.out.println("inputValue : " + inputValue);
                     issue.setImage_location(inputValue);
                     break;
                 case "issue_number":
@@ -325,6 +342,11 @@ public class SAXGenericHandler extends DefaultHandler {
 
     public static void main(String[] args) throws Exception {
 
+        //testMethod();
+        readIssuesXML();
+    }
+
+    public static void testMethod() throws Exception {
         String[] inputName = {
             FileName.FileSamplePublishers, FileName.FileSampleIssues, FileName.FileSamplePersons, FileName.FileSampleStoryArcs, FileName.FileSampleVolumes
         };
@@ -333,14 +355,9 @@ public class SAXGenericHandler extends DefaultHandler {
             LongBox<GenericObject> box = SAXGenericHandler.readXML(inputName[i]);
             System.out.println("box size is " + box.size());
         }
-
     }
 
-}//end class
-
-/* version 1 code
-
-    public static void main(String[] args) throws Exception {
+    public static void run() throws Exception {
         readVolumesXML();
         readPublishersXML();
         readPersonsXML();
@@ -368,7 +385,7 @@ public class SAXGenericHandler extends DefaultHandler {
         String filename = "data/xml_publishers.xml";
         SAXGenericHandler saxHandler = new SAXGenericHandler();
 
-        LongBox<ModelGeneric> data = saxHandler.readDataFromXML(filename);
+        LongBox<GenericObject> data = saxHandler.readDataFromXML(filename);
         System.out.println("size of data is " + data.size());
         for (GenericObject element : data.getArray()) {
             Publisher temp = (Publisher) element;
@@ -383,7 +400,7 @@ public class SAXGenericHandler extends DefaultHandler {
         String filename = "data/xml_persons.xml";
         SAXGenericHandler saxHandler = new SAXGenericHandler();
 
-        LongBox<ModelGeneric> data = saxHandler.readDataFromXML(filename);
+        LongBox<GenericObject> data = saxHandler.readDataFromXML(filename);
         System.out.println("size of data is " + data.size());
         for (GenericObject element : data.getArray()) {
             Person temp = (Person) element;
@@ -399,7 +416,7 @@ public class SAXGenericHandler extends DefaultHandler {
         String filename = "data/xml_storyarcs.xml";
         SAXGenericHandler saxHandler = new SAXGenericHandler();
 
-        LongBox<ModelGeneric> data = saxHandler.readDataFromXML(filename);
+        LongBox<GenericObject> data = saxHandler.readDataFromXML(filename);
         System.out.println("size of data is " + data.size());
 
         int i = 0;
@@ -416,7 +433,7 @@ public class SAXGenericHandler extends DefaultHandler {
         String filename = "data/xml_volumes.xml";
         SAXGenericHandler saxHandler = new SAXGenericHandler();
 
-        LongBox<ModelGeneric> data = saxHandler.readDataFromXML(filename);
+        LongBox<GenericObject> data = saxHandler.readDataFromXML(filename);
         System.out.println("size of data is " + data.size());
 
         int i = 0;
@@ -433,7 +450,7 @@ public class SAXGenericHandler extends DefaultHandler {
         String filename = "data/xml_issues.xml";
         SAXGenericHandler saxHandler = new SAXGenericHandler();
 
-        LongBox<ModelGeneric> data = saxHandler.readDataFromXML(filename);
+        LongBox<GenericObject> data = saxHandler.readDataFromXML(filename);
         System.out.println("size of data is " + data.size());
 
         int i = 0;
@@ -445,4 +462,5 @@ public class SAXGenericHandler extends DefaultHandler {
         System.out.println("(end readIssuesXML)\n");
 
     }
-*/
+
+}//end class

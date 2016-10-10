@@ -1,8 +1,12 @@
 package Utilities.XML;
 
 import Model.GenericObject;
+import Model.Issue;
 import Model.LongBox;
+import Model.Person;
 import Model.Publisher;
+import Model.StoryArc;
+import Model.Volume;
 import Utilities.XML.FileName;
 import static Utilities.XML.XMLQuery.extractFromNodeList;
 import java.io.File;
@@ -158,8 +162,44 @@ public class XMLDatabase_Incomplete {
     }
 
     public static void main(String[] args) throws XPathExpressionException, TransformerException {
+        System.out.println("---------------------XMLDatabase test----------------------");
         XMLDatabase_Incomplete sampleDatabase = new XMLDatabase_Incomplete(FileName.FileSamplePublishers, FileName.FileSamplePersons, FileName.FileSampleVolumes, FileName.FileSampleIssues, FileName.FileSampleStoryArcs);
         System.out.println(sampleDatabase.toString());
+
+        LongBox<GenericObject> box = sampleDatabase.getPublishers();
+        for (GenericObject element : box.getArray()) {
+            Publisher publisher = (Publisher) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
+
+        box = sampleDatabase.getIssues();
+        for (GenericObject element : box.getArray()) {
+            Issue publisher = (Issue) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
+
+        box = sampleDatabase.getPersons();
+        for (GenericObject element : box.getArray()) {
+            Person publisher = (Person) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
+
+        box = sampleDatabase.getStoryarcs();
+        for (GenericObject element : box.getArray()) {
+            StoryArc publisher = (StoryArc) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
+
+        box = sampleDatabase.getVolumes();
+        for (GenericObject element : box.getArray()) {
+            Volume publisher = (Volume) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
 
     }
 }
