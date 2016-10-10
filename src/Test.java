@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Test;
+
 
 import Model.*;
 import Model.GenericObject;
@@ -106,6 +106,7 @@ public class Test {
     }
 
     public static void test_XML_database() {
+        System.out.println("---------------------XMLDatabase test----------------------");
         XMLDatabase_Incomplete sampleDatabase = new XMLDatabase_Incomplete(FileName.FileSamplePublishers, FileName.FileSamplePersons, FileName.FileSampleVolumes, FileName.FileSampleIssues, FileName.FileSampleStoryArcs);
         System.out.println(sampleDatabase.toString());
     }

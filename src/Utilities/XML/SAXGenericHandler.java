@@ -9,14 +9,6 @@ import Model.Publisher;
 import Model.Person;
 import java.io.File;
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.List;
-import static javafx.scene.input.KeyCode.T;
-import java.lang.StringBuilder;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;

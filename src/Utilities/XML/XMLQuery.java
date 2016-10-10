@@ -53,7 +53,7 @@ public class XMLQuery {
         LongBox<GenericObject> extractedLongBox = new LongBox<GenericObject>();
 
         try {
-            System.out.println("----------------------------------------------------------");
+            //System.out.println("----------------------------------------------------------");
             File inputFile = new File(inputFileName);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder;
@@ -71,7 +71,7 @@ public class XMLQuery {
 
             extractedLongBox = extractFromNodeList(nodeList, "publisher");
 
-            System.out.println("size of extractedLongBox is " + extractedLongBox.size());
+            System.out.println("size of extractedLongBox is " + extractedLongBox.size() + "\n");
 
         } catch (ParserConfigurationException e) {
             System.out.println("Parse Configuration Error");
