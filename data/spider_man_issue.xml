@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spider_man_issue>
+  <error>OK</error>
+  <limit>1</limit>
+  <number_of_page_results>1</number_of_page_results>
+  <number_of_total_results>1</number_of_total_results>
+  <offset>0</offset>
+  <results>
+    <aliases null="true" />
+    <api_detail_url>http://comicvine.gamespot.com/api/issue/4000-437484/</api_detail_url>
+    <character_credits>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-2120/</api_detail_url>
+        <id>2120</id>
+        <name>Human Torch</name>
+        <site_detail_url>http://comicvine.gamespot.com/human-torch/4005-2120/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-2190/</api_detail_url>
+        <id>2190</id>
+        <name>Invisible Woman</name>
+        <site_detail_url>http://comicvine.gamespot.com/invisible-woman/4005-2190/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-1445/</api_detail_url>
+        <id>1445</id>
+        <name>Juggernaut</name>
+        <site_detail_url>http://comicvine.gamespot.com/juggernaut/4005-1445/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-13380/</api_detail_url>
+        <id>13380</id>
+        <name>Mary Jane</name>
+        <site_detail_url>http://comicvine.gamespot.com/mary-jane/4005-13380/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-2151/</api_detail_url>
+        <id>2151</id>
+        <name>Mr. Fantastic</name>
+        <site_detail_url>http://comicvine.gamespot.com/mr-fantastic/4005-2151/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-1443/</api_detail_url>
+        <id>1443</id>
+        <name>Spider-Man</name>
+        <site_detail_url>http://comicvine.gamespot.com/spider-man/4005-1443/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-2114/</api_detail_url>
+        <id>2114</id>
+        <name>Thing</name>
+        <site_detail_url>http://comicvine.gamespot.com/thing/4005-2114/</site_detail_url>
+      </results>
+    </character_credits>
+    <character_died_in />
+    <concept_credits />
+    <cover_date>2014-02-01</cover_date>
+    <date_added>2013-12-17 00:02:40</date_added>
+    <date_last_updated>2014-01-22 07:50:08</date_last_updated>
+    <deck null="true" />
+    <description>&lt;p&gt;&lt;em&gt;Peter Parker and Johnny Storm must stop an apocalyptic future by fighting - the Fantastic Four?! By Brian Reed (MS. MARVEL) and Sean Chen (AVENGERS)!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Then, a young child risks his life to save Spider-Man's in the emotional WHAT WOULD SPIDER-MAN DO? By Kevin Grievioux (NEW WARRIORS) and Lee Weeks (AMAZING SPIDER-MAN)!&lt;/em&gt;&lt;/p&gt;&lt;h4&gt;List of covers and their creators:&lt;/h4&gt;&lt;table data-max-width="true"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th scope="col"&gt;Cover&lt;/th&gt;&lt;th scope="col"&gt;Name&lt;/th&gt;&lt;th scope="col"&gt;Creator(s)&lt;/th&gt;&lt;th scope="col"&gt;Sidebar Location&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Reg&lt;/td&gt;&lt;td&gt;Regular Cover&lt;/td&gt;&lt;td&gt;Pasqual Ferry &amp;amp; Morry Hollowell&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Var&lt;/td&gt;&lt;td&gt;Variant Cover&lt;/td&gt;&lt;td&gt;In-Hyuk Lee&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description>
+    <first_appearance_characters>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-13380/</api_detail_url>
+        <id>13380</id>
+        <name>Mary Jane</name>
+        <site_detail_url>http://comicvine.gamespot.com/mary-jane/4005-13380/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-2120/</api_detail_url>
+        <id>2120</id>
+        <name>Human Torch</name>
+        <site_detail_url>http://comicvine.gamespot.com/human-torch/4005-2120/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-1443/</api_detail_url>
+        <id>1443</id>
+        <name>Spider-Man</name>
+        <site_detail_url>http://comicvine.gamespot.com/spider-man/4005-1443/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-2190/</api_detail_url>
+        <id>2190</id>
+        <name>Invisible Woman</name>
+        <site_detail_url>http://comicvine.gamespot.com/invisible-woman/4005-2190/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-2151/</api_detail_url>
+        <id>2151</id>
+        <name>Mr. Fantastic</name>
+        <site_detail_url>http://comicvine.gamespot.com/mr-fantastic/4005-2151/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-2114/</api_detail_url>
+        <id>2114</id>
+        <name>Thing</name>
+        <site_detail_url>http://comicvine.gamespot.com/thing/4005-2114/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/character/4005-1445/</api_detail_url>
+        <id>1445</id>
+        <name>Juggernaut</name>
+        <site_detail_url>http://comicvine.gamespot.com/juggernaut/4005-1445/</site_detail_url>
+      </results>
+    </first_appearance_characters>
+    <first_appearance_concepts null="true" />
+    <first_appearance_locations null="true" />
+    <first_appearance_objects null="true" />
+    <first_appearance_storyarcs null="true" />
+    <first_appearance_teams>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/team/4060-3804/</api_detail_url>
+        <id>3804</id>
+        <name>Fantastic Four</name>
+        <site_detail_url>http://comicvine.gamespot.com/fantastic-four/4060-3804/</site_detail_url>
+      </results>
+    </first_appearance_teams>
+    <has_staff_review>false</has_staff_review>
+    <id>437484</id>
+    <image>
+      <icon_url>http://comicvine.gamespot.com/api/image/square_avatar/3507907-700.5.jpg</icon_url>
+      <medium_url>http://comicvine.gamespot.com/api/image/scale_medium/3507907-700.5.jpg</medium_url>
+      <screen_url>http://comicvine.gamespot.com/api/image/screen_medium/3507907-700.5.jpg</screen_url>
+      <small_url>http://comicvine.gamespot.com/api/image/scale_small/3507907-700.5.jpg</small_url>
+      <super_url>http://comicvine.gamespot.com/api/image/scale_large/3507907-700.5.jpg</super_url>
+      <thumb_url>http://comicvine.gamespot.com/api/image/scale_avatar/3507907-700.5.jpg</thumb_url>
+      <tiny_url>http://comicvine.gamespot.com/api/image/square_mini/3507907-700.5.jpg</tiny_url>
+    </image>
+    <issue_number>700.5</issue_number>
+    <location_credits />
+    <name>Spider-Man &amp; The Human Torch Save the Universe; What Would Spider-Man Do?</name>
+    <object_credits />
+    <person_credits>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-56587/</api_detail_url>
+        <id>56587</id>
+        <name>Alan Fine</name>
+        <role>other</role>
+        <site_detail_url>http://comicvine.gamespot.com/alan-fine/4040-56587/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-42260/</api_detail_url>
+        <id>42260</id>
+        <name>Alejandro Arbona</name>
+        <role>editor, other</role>
+        <site_detail_url>http://comicvine.gamespot.com/alejandro-arbona/4040-42260/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-23115/</api_detail_url>
+        <id>23115</id>
+        <name>Axel Alonso</name>
+        <role>other</role>
+        <site_detail_url>http://comicvine.gamespot.com/axel-alonso/4040-23115/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-41608/</api_detail_url>
+        <id>41608</id>
+        <name>Brian Reed</name>
+        <role>writer</role>
+        <site_detail_url>http://comicvine.gamespot.com/brian-reed/4040-41608/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-4837/</api_detail_url>
+        <id>4837</id>
+        <name>Chris Sotomayor</name>
+        <role>colorist</role>
+        <site_detail_url>http://comicvine.gamespot.com/chris-sotomayor/4040-4837/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-41596/</api_detail_url>
+        <id>41596</id>
+        <name>Dan Buckley</name>
+        <role>other</role>
+        <site_detail_url>http://comicvine.gamespot.com/dan-buckley/4040-41596/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-67987/</api_detail_url>
+        <id>67987</id>
+        <name>In-Hyuk Lee</name>
+        <role>cover</role>
+        <site_detail_url>http://comicvine.gamespot.com/in-hyuk-lee/4040-67987/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-41553/</api_detail_url>
+        <id>41553</id>
+        <name>Joe Caramagna</name>
+        <role>letterer</role>
+        <site_detail_url>http://comicvine.gamespot.com/joe-caramagna/4040-41553/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-1537/</api_detail_url>
+        <id>1537</id>
+        <name>Joe Quesada</name>
+        <role>other</role>
+        <site_detail_url>http://comicvine.gamespot.com/joe-quesada/4040-1537/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-1775/</api_detail_url>
+        <id>1775</id>
+        <name>Morry Hollowell</name>
+        <role>cover</role>
+        <site_detail_url>http://comicvine.gamespot.com/morry-hollowell/4040-1775/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-41884/</api_detail_url>
+        <id>41884</id>
+        <name>Pasqual Ferry</name>
+        <role>cover</role>
+        <site_detail_url>http://comicvine.gamespot.com/pasqual-ferry/4040-41884/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-10568/</api_detail_url>
+        <id>10568</id>
+        <name>Sandu Florea</name>
+        <role>inker</role>
+        <site_detail_url>http://comicvine.gamespot.com/sandu-florea/4040-10568/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-5567/</api_detail_url>
+        <id>5567</id>
+        <name>Sean Chen</name>
+        <role>penciler</role>
+        <site_detail_url>http://comicvine.gamespot.com/sean-chen/4040-5567/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-41929/</api_detail_url>
+        <id>41929</id>
+        <name>Stephen Wacker</name>
+        <role>editor, other</role>
+        <site_detail_url>http://comicvine.gamespot.com/stephen-wacker/4040-41929/</site_detail_url>
+      </results>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/person/4040-46533/</api_detail_url>
+        <id>46533</id>
+        <name>Thomas Brennan</name>
+        <role>editor, other</role>
+        <site_detail_url>http://comicvine.gamespot.com/thomas-brennan/4040-46533/</site_detail_url>
+      </results>
+    </person_credits>
+    <site_detail_url>http://comicvine.gamespot.com/the-amazing-spider-man-700-5-spider-man-the-human-/4000-437484/</site_detail_url>
+    <store_date>2013-12-18</store_date>
+    <story_arc_credits />
+    <team_credits>
+      <results>
+        <api_detail_url>http://comicvine.gamespot.com/api/team/4060-3804/</api_detail_url>
+        <id>3804</id>
+        <name>Fantastic Four</name>
+        <site_detail_url>http://comicvine.gamespot.com/fantastic-four/4060-3804/</site_detail_url>
+      </results>
+    </team_credits>
+    <team_disbanded_in />
+    <volume>
+      <api_detail_url>http://comicvine.gamespot.com/api/volume/4050-2127/</api_detail_url>
+      <id>2127</id>
+      <name>The Amazing Spider-Man</name>
+      <site_detail_url>http://comicvine.gamespot.com/the-amazing-spider-man/4050-2127/</site_detail_url>
+    </volume>
+  </results>
+  <status_code>1</status_code>
+  <version>1.0</version>
+</spider_man_issue>

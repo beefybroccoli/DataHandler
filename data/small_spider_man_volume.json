@@ -1,0 +1,47 @@
+{
+  "error": "OK",
+  "limit": 1,
+  "offset": 0,
+  "number_of_page_results": 1,
+  "number_of_total_results": 1,
+  "status_code": 1,
+  "results": {
+    "aliases": "The Amazing Ricochet",
+    "api_detail_url": "http://comicvine.gamespot.com/api/volume/4050-2127/",
+    "characters": [
+      {
+        "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-1440/",
+        "id": 1440,
+        "name": "Wolverine",
+        "site_detail_url": "http://comicvine.gamespot.com/wolverine/4005-1440/"
+      },
+      {
+        "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-1441/",
+        "id": 1441,
+        "name": "Magneto",
+        "site_detail_url": "http://comicvine.gamespot.com/magneto/4005-1441/"
+      },
+      {
+        "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-1442/",
+        "id": 1442,
+        "name": "Captain America",
+        "site_detail_url": "http://comicvine.gamespot.com/captain-america/4005-1442/"
+      },
+      {
+        "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-1443/",
+        "id": 1443,
+        "name": "Spider-Man",
+        "site_detail_url": "http://comicvine.gamespot.com/spider-man/4005-1443/"
+      }  
+
+ ],
+    "publisher": {
+      "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-31/",
+      "id": 31,
+      "name": "Marvel"
+    },
+    "site_detail_url": "http://comicvine.gamespot.com/the-amazing-spider-man/4050-2127/",
+    "start_year": "1963"
+  },
+  "version": "1.0"
+}
