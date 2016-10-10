@@ -1,0 +1,11 @@
+DataHandler should serve for several purposes:
+    1. provide utilities to use with XML
+        _parsing XML to object
+        _store file location for frequently used
+
+    2. provide model objects to use throughout the project
+
+    3. provide utilities to use with JSON
+
+
+The test package include tools to demonstrate how to use the classes

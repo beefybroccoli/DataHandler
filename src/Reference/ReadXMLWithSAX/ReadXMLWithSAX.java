@@ -1,6 +1,6 @@
 package Reference.ReadXMLWithSAX;
 
-import Utilities.SAXGenericHandler;
+import Utilities.XML.SAXGenericHandler;
 import Model.LongBox;
 import Model.Volume;
 import Model.StoryArc;

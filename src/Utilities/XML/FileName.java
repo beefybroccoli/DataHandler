@@ -1,4 +1,4 @@
-package Utilities;
+package Utilities.XML;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

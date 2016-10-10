@@ -1,4 +1,4 @@
-package Utilities;
+package Utilities.XML;
 
 import Model.LongBox;
 import Model.StoryArc;

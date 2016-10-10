@@ -9,8 +9,6 @@ package XML;
  *
  * @author macbook
  */
-public class ConvertObjectToXMLString_Incomplete {
-    
-    
+public class Remove_Object_From_XML_File_Incomplete {
     
 }

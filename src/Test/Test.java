@@ -8,8 +8,8 @@ package Test;
 import Model.*;
 import Model.GenericObject;
 import Model.LongBox;
-import Utilities.FileName;
-import Utilities.SAXGenericHandler;
+import Utilities.XML.FileName;
+import Utilities.XML.SAXGenericHandler;
 
 public class Test {
 
