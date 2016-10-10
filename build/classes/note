@@ -9,3 +9,14 @@ DataHandler should serve for several purposes:
 
 
 The test package include tools to demonstrate how to use the classes
+    test.java demonstrate the following
+    _how to use queries
+    _how to use SAX_Generic_Handler
+    _how to get LongBox<GenericObject> from test_LongBex_Object
+    _how to use the XMLDatabase which include :
+        _create XMLDatabase
+        _populate the XMLDatabase content
+        _retrieve object (incomplete)
+        _add object (incomplete)
+        _remove object (incomplete)
+        _modify object (incomplete)
