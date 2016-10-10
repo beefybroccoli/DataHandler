@@ -94,9 +94,29 @@ public class XMLDatabase_Incomplete {
         return result;
     }
 
+    public LongBox<GenericObject> getPublishers() {
+        return mPublisher;
+    }
+
+    public LongBox<GenericObject> getIssues() {
+        return mIssue;
+    }
+
+    public LongBox<GenericObject> getPersons() {
+        return mPerson;
+    }
+
+    public LongBox<GenericObject> getStoryarcs() {
+        return mStoryarc;
+    }
+
+    public LongBox<GenericObject> getVolumes() {
+        return mVolume;
+    }
+
     /*
     addObject function cause error
-    */
+     */
     public static void addObject(String inputFileName, GenericObject obj) throws XPathExpressionException, TransformerException {
 
         try {
@@ -113,7 +133,6 @@ public class XMLDatabase_Incomplete {
 
             // Set the node content
             //node.setTextContent("<publisher>\n<name>social engineering team</name>\n<id>6</id></publisher>\n");
-
             // Write changes to a file
             Transformer transformer = TransformerFactory.newInstance().newTransformer();
             transformer.transform(new DOMSource(document), new StreamResult(new File(inputFileName)));

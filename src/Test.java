@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-
 import Model.*;
 import Model.GenericObject;
 import Model.LongBox;
@@ -38,12 +37,11 @@ public class Test {
         search through file for a specific query
          */
         runQueriesFromFile();
-        
-        
+
         /*
         input: String publisherFile, String personFile, String VolumeFile, String issueFile, String storyarcFile
         output: XMLDatabase_Incomplete object
-        */
+         */
         test_XML_database();
     }
 
@@ -109,5 +107,40 @@ public class Test {
         System.out.println("---------------------XMLDatabase test----------------------");
         XMLDatabase_Incomplete sampleDatabase = new XMLDatabase_Incomplete(FileName.FileSamplePublishers, FileName.FileSamplePersons, FileName.FileSampleVolumes, FileName.FileSampleIssues, FileName.FileSampleStoryArcs);
         System.out.println(sampleDatabase.toString());
+
+        LongBox<GenericObject> box = sampleDatabase.getPublishers();
+        for (GenericObject element : box.getArray()) {
+            Publisher publisher = (Publisher) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
+
+        box = sampleDatabase.getIssues();
+        for (GenericObject element : box.getArray()) {
+            Issue publisher = (Issue) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
+
+        box = sampleDatabase.getPersons();
+        for (GenericObject element : box.getArray()) {
+            Person publisher = (Person) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
+
+        box = sampleDatabase.getStoryarcs();
+        for (GenericObject element : box.getArray()) {
+            StoryArc publisher = (StoryArc) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
+
+        box = sampleDatabase.getVolumes();
+        for (GenericObject element : box.getArray()) {
+            Volume publisher = (Volume) element;
+            System.out.println(publisher.toString());
+        }
+        System.out.println("");
     }
 }
