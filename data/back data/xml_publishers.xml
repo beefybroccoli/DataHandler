@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<publishers>
+  <publisher>
+    <name>marvels</name>
+    <id>1</id>
+  </publisher>
+  <publisher>
+    <name>washington dc</name>
+    <id>2</id>
+  </publisher>
+  <publisher>
+    <name>thom house comic</name>
+    <id>3</id>
+  </publisher>
+  <publisher>
+    <name>theory comic</name>
+    <id>4</id>
+  </publisher>
+  <publisher>
+    <name>ieee comic</name>
+    <id>5</id>
+  </publisher>
+</publishers>

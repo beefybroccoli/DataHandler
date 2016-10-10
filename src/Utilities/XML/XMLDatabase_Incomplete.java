@@ -2,9 +2,30 @@ package Utilities.XML;
 
 import Model.GenericObject;
 import Model.LongBox;
+import Model.Publisher;
 import Utilities.XML.FileName;
+import static Utilities.XML.XMLQuery.extractFromNodeList;
+import java.io.File;
+import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
 public class XMLDatabase_Incomplete {
 
@@ -72,22 +93,54 @@ public class XMLDatabase_Incomplete {
                 + " and " + mStoryarc.size() + " storyarcs.";
         return result;
     }
-    
-    public static void addObject(GenericObject obj) {
-        
-    }
-    
-    public static void removeObject(GenericObject obj){
-        
-    }
-    
-    public static void modifyObject(GenericObject obj){
-        
+
+    /*
+    addObject function cause error
+    */
+    public static void addObject(String inputFileName, GenericObject obj) throws XPathExpressionException, TransformerException {
+
+        try {
+            //System.out.println("----------------------------------------------------------");
+            // Create a document by parsing a XML file
+            DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = builderFactory.newDocumentBuilder();
+            Document document = builder.parse(new File(inputFileName));
+
+            // Get a node using XPath
+            XPath xPath = XPathFactory.newInstance().newXPath();
+            String expression = "/publishers";
+            Node node = (Node) xPath.evaluate(expression, document, XPathConstants.NODE);
+
+            // Set the node content
+            //node.setTextContent("<publisher>\n<name>social engineering team</name>\n<id>6</id></publisher>\n");
+
+            // Write changes to a file
+            Transformer transformer = TransformerFactory.newInstance().newTransformer();
+            transformer.transform(new DOMSource(document), new StreamResult(new File(inputFileName)));
+
+        } catch (ParserConfigurationException e) {
+            System.out.println("Parse Configuration Error");
+            //e.printStackTrace();
+        } catch (SAXException e) {
+            System.out.println("SAX Error");
+            //e.printStackTrace();
+        } catch (IOException e) {
+            System.out.println("file not found");
+        }
+
     }
 
-    public static void main(String[] args) {
-        XMLDatabase_Incomplete sampleDatabase = new XMLDatabase_Incomplete(FileName.FileSamplePublishers, FileName.FileSamplePersons,FileName.FileSampleVolumes
-                ,FileName.FileSampleIssues,FileName.FileSampleStoryArcs);
+    public static void removeObject(GenericObject obj) {
+
+    }
+
+    public static void modifyObject(GenericObject obj) {
+
+    }
+
+    public static void main(String[] args) throws XPathExpressionException, TransformerException {
+        XMLDatabase_Incomplete sampleDatabase = new XMLDatabase_Incomplete(FileName.FileSamplePublishers, FileName.FileSamplePersons, FileName.FileSampleVolumes, FileName.FileSampleIssues, FileName.FileSampleStoryArcs);
         System.out.println(sampleDatabase.toString());
+
     }
 }

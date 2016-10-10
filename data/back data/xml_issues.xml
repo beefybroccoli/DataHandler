@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<issues>
+  <issue>
+ 	<name>title of issue 1</name>
+	<image>image location here</image>
+	<id>1</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>marvel story arc 1</storyarc_credit>
+  </issue>
+  
+  <issue>
+ 	<name>title of issue 2</name>
+	<image>image location here</image>
+	<id>2</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>marvel story arc 2</storyarc_credit>
+  </issue>
+  
+  <issue>
+ 	<name>title of issue 3</name>
+	<image>image location here</image>
+	<id>3</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>washington dc storyarc 1</storyarc_credit>
+  </issue>
+
+  <issue>
+ 	<name>title of issue 4</name>
+	<image>image location here</image>
+	<id>4</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>washington dc storyarc 2</storyarc_credit>
+  </issue>
+  
+  <issue>
+ 	<name>title of issue 5</name>
+	<image>image location here</image>
+	<id>5</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>thom house storyarc 1</storyarc_credit>
+  </issue>
+ 
+ <issue>
+ 	<name>title of issue 6</name>
+	<image>image location here</image>
+	<id>6</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>thom house storyarc 2</storyarc_credit>
+  </issue>
+  
+  <issue>
+ 	<name>title of issue 7</name>
+	<image>image location here</image>
+	<id>7</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>theory comic storyarc 1</storyarc_credit>
+  </issue>
+  
+  <issue>
+ 	<name>title of issue 8</name>
+	<image>image location here</image>
+	<id>8</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>theory comic storyarc 2</storyarc_credit>
+  </issue>
+
+  <issue>
+ 	<name>title of issue 9</name>
+	<image>image location here</image>
+	<id>9</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>ieee storyarc 1</storyarc_credit>
+  </issue>
+  
+  <issue>
+ 	<name>title of issue 10</name>
+	<image>image location here</image>
+	<id>10</id>
+	<issue_number>1</issue_number>
+	<description><![CDATA[description goes here]]></description>
+    <cover_date>2005-01-01</cover_date>
+	<store_date>2005-01-03</store_date>
+	<site_detail_url>www.samplesite.org</site_detail_url>
+	<person_credit>null</person_credit>
+	<storyarc_credit>ieee storyarc 2</storyarc_credit>
+  </issue>
+ </issues>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<storyarcs>
+  <storyarc>
+    <name>marvel storyarc 1</name>
+    <id>1</id>
+	<publisher_name>marvels</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>marvel storyarc 2</name>
+    <id>2</id>
+	<publisher_name>marvels</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>washington dc storyarc 1</name>
+    <id>3</id>
+	<publisher_name>washington dc</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>washington dc storyarc 2</name>
+    <id>4</id>
+	<publisher_name>washington dc</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>thom house storyarc 1</name>
+    <id>5</id>
+	<publisher_name>thom house comic</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>thom house storyarc  2</name>
+    <id>6</id>
+	<publisher_name>thom house comic</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>theory comic storyarc 1</name>
+    <id>7</id>
+	<publisher_name>theory comic</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>theory comic storyarc 2</name>
+    <id>8</id>
+	<publisher_name>theory comic</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>ieee storyarc 1</name>
+    <id>9</id>
+	<publisher_name>ieee comic</publisher_name>
+  </storyarc>
+  <storyarc>
+    <name>ieee storyarc 2</name>
+    <id>10</id>
+	<publisher_name>ieee comic</publisher_name>
+  </storyarc>
+</storyarcs>

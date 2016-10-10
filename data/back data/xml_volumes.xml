@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<volumes>
+  <volume>
+	<id>1</id>
+	<name>volume one</name>
+	<description><![CDATA[description goes here]]></description>
+    <count_of_issues>2</count_of_issues>
+	<publisher_name>marvels</publisher_name>
+  </volume>
+   <volume>
+	<id>2</id>
+	<name>volume second</name>
+	<description><![CDATA[description goes here]]></description>
+    <count_of_issues>2</count_of_issues>
+	<publisher_name>washington dc</publisher_name>
+  </volume>
+  <volume>
+	<id>3</id>
+	<name>volume third</name>
+	<description><![CDATA[description goes here]]></description>
+    <count_of_issues>2</count_of_issues>
+	<publisher_name>thom house comic</publisher_name>
+  </volume>
+  <volume>
+	<id>4</id>
+	<name>volume forth</name>
+	<description><![CDATA[here goes goes here]]></description>
+    <count_of_issues>2</count_of_issues>
+	<publisher_name>theory comic</publisher_name>
+  </volume>
+   <volume>
+	<id>5</id>
+	<name>volume fifth</name>
+	<description><![CDATA[description goes here]]></description>
+    <count_of_issues>2</count_of_issues>
+	<publisher_name>ieee comic</publisher_name>
+  </volume>
+</volumes>
+  
