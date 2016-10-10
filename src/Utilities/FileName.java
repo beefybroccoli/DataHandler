@@ -5,7 +5,6 @@ package Utilities;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author macbook
@@ -21,7 +20,12 @@ public class FileName {
     public static final String FileSampleVolumes = "data/xml_volumes.xml";
 
     public static final String FileSampleIssues = "data/xml_issues.xml";
-    
+
+    public static final String spiderManVolume = "data/spider_man_volume.json";
+    public static final String spiderManIssue = "data/spider_man_issue.json";
+    public static final String smallSpiderManVolume = "data/small_spider_man_volume.json";
+    public static final String smallSpiderManIssue = "data/small_spider_man_issuejson";
+
     /*
     how to use XML Databaase
     
@@ -29,5 +33,4 @@ public class FileName {
     
     How to remove an item
      */
-
 }
